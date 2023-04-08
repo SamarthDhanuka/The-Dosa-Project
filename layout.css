@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Hubballi&family=League+Gothic&family=Maven+Pro&family=Oswald:wght@300;400&family=Smooch+Sans:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    flex-direction: column;
+    background-color: azure;
+}
+
+header{
+    /* height: 25vh; */
+    flex-direction: column;
+    position: sticky;
+    top: 0vh;
+    z-index: 1;
+}
+
+#top{
+    height: 18vh;
+    width: auto;
+    color: white;
+    background-color: darkseagreen;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+nav{
+    color: azure;
+    height: 5vh;
+    width: auto;
+    font-family: 'Oswald', sans-serif;    font-size: x-large;
+}
+
+nav ul{
+    height: 100%;
+    width: auto;
+    justify-content: space-around;
+}
+
+nav ul li{
+    height: 100%;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+nav ul li a{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+#types-list{
+    display: none;
+    position: absolute;
+    text-align: center;
+    width: inherit;
+    color: azure;
+    background-color: cadetblue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 1;
+}
+
+#types-list a{
+    /* text-decoration: none; */
+    color: azure;
+    width: inherit;
+}
+
+.nav_ele{
+    position: relative;
+    display: inline-block;
+}
+
+
+main{
+    /* background-color: azure; */
+    min-height: calc(100vh - 23vh - 60px);
+    width: 70vw;
+    margin: auto;
+    margin-bottom: 30px;
+    /* box-shadow: 2px 0px 5px 2px rgba(5, 5, 5, 0.2); */
+}
+
+
+footer{
+    background-color: cadetblue;
+    color: azure;
+    justify-self: flex-end;
+}
+
+footer a{
+    color: azure;
+}
+
+footer img{
+    height: 30px;
+    width: 30px;
+}
+
+#gototop{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    /* position: -webkit-sticky; */
+    /* position: sticky; */
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: azure;
+}
+
+#gototop img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#this-page{
+    background-color: azure;
+    color: cadetblue;
+}
+
+
+nav ul li:hover{
+    background-color: azure;
+    color: cadetblue;
+    cursor: pointer;
+}
+
+#top, #top a:hover{
+    cursor: default;
+}
+
+#gototop:hover{
+    cursor: pointer;
+}
+
+a:visited{
+    text-decoration: none;
+    color: azure;
+}
+
+nav ul li a:hover{
+    /* background-color: azure; */
+    color: cadetblue;
+    cursor: pointer;
+}
+
+
+
+/* #top a:hover{
+    cursor: default;
+} */
+
+#gototop img:hover{
+    animation-name: zoomin;
+    animation-duration: 0.5s;
+    transform: scale(1.2);
+}
+
+main a:hover{
+    cursor: default;
+}
+
+@keyframes zoomin {
+    from {transform: scale(1.0);}
+    to {transform: scale(1.2);}
+}
+
+#types-list a:hover{
+    color: #A0615F;
+}

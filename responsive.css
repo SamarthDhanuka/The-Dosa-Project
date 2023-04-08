@@ -1,0 +1,53 @@
+@media screen and (max-width:1079px) {
+    body{
+        background-color: red;
+    }
+
+    main{
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    main{
+        width: 90vw;
+    }
+
+    body{
+        background-color: yellow;
+    }
+
+    #top{
+        padding-left: 5vw;
+        justify-content: left;
+        height: 75px;
+        width: 100vw;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+    header{
+        width: 100vw;
+        justify-content: right;
+    }
+
+    nav{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: right;
+    }
+
+    header ul{
+        width: 40vw;
+        min-width: 150px;
+        flex-direction: column;
+    }
+
+
+    header li{
+        text-align: right;
+    }
+}

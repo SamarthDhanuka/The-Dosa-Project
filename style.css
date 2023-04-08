@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Hubballi&family=League+Gothic&family=Maven+Pro&family=Oswald:wght@300;400&family=Smooch+Sans:wght@600&display=swap');
+
+.flex{
+    display: flex;
+}
+
+.clmn{
+    flex-direction: column;
+}
+
+.acenter{
+    align-items: center;
+}
+
+.jcenter{
+    justify-content: center;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.unstyle{
+    text-decoration: none;
+}
+
+.m30{
+    margin: 30px auto;
+}
+
+.text-azure{
+    color: azure;
+}
+
+.justify{
+    text-align: justify;
+}
+
+/* .centerpic{
+    width: 90%;
+    height: auto;
+} */
+
+main p{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+}
+
+main ul{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+h2{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.inline{
+    display: inline;
+}
+
+.w40{
+    width: 40%;
+    height: auto;
+}
+
+.w90{
+    width: 90%;
+    height: auto;
+}
+
+.w50{
+    /* display: inline-block; */
+    width: 50%;
+}
+
+.w100{
+    width: 100%;
+}
+
+.h30{
+    height: 30vh;
+}
+
+.ptop{
+    padding-top: 6px;
+}
+
+.float{
+    float: left;
+    margin-right: 1vw;
+    width: 30vw;
+}
+
+.floatr{
+    float: right;
+    margin-left: 1vw;
+    width: 30vw;
+}
+
+.w20{
+    width: 20vw;
+}
+
+.space{
+    justify-content: space-around;
+}
+
+main h1{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+video{
+    z-index: 0;
+}
+
+footer table td{
+    padding: auto;
+}
